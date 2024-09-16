@@ -292,6 +292,17 @@ header .navbar.sticky-header{
     background: url(../images/header-bg.jpg) no-repeat top center;
     background-size: cover;
     padding: 220px 0 120px;
+	
+}
+
+
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+  .banner {
+     /* For smaller screens, adjust the height */
+	 background: none;
+  }
 }
 
 .banner-content h2{
